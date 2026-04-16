@@ -18,21 +18,18 @@ Download the dataset from:
 
 ### Step 3: Prepare Files
 Place the following in the root directory of the project (same level as the notebooks):
-- The extracted VOC2012 folder (`VOCdevkit/VOC2012/`)
+- The extracted VOC2012 folder
 - The model weight file `sam3.pt`
 
 ## Notebooks
 
-| Notebook                        | Description                                                                 | Environment    |
-|--------------------------------|-----------------------------------------------------------------------------|----------------|
-| `test_all_local.ipynb`         | Test SAM3 on local machine                                                  | Local          |
-| `sam3-not-resize.ipynb`        | Run SAM3 without image resizing                                             | Kaggle         |
-| `visual_bbox_5class.ipynb`     | Visualize bounding boxes of 5 weak classes: `diningtable`, `sofa`, `chair`, `bicycle`, `pottedplant` | Local / Kaggle |
-| `sam3-improve-5first.ipynb`    | Attempt to improve segmentation results for the 5 weak classes (still in progress) | Local / Kaggle |
+| Notebook                        | Description                                                                 | 
+|--------------------------------|-----------------------------------------------------------------------------|
+| `test_all_local.ipynb`         | Test SAM3 on local machine                                                   | 
+| `sam3-not-resize.ipynb`        | Run SAM3 without image resizing on kaggle                                    |
+| `visual_bbox_5class.ipynb`     | Visualize bounding boxes of 5 weak classes: `diningtable`, `sofa`, `chair`, `bicycle`, `pottedplant` |
+| `sam3-improve-5first.ipynb`    | Attempt to improve segmentation results for the 5 weak classes (still in progress) |
 
 **Note**:  
 The classes `diningtable`, `sofa`, `chair`, `bicycle`, and `pottedplant` are currently the weakest performing classes for SAM3. The notebook `sam3-improve-5first.ipynb` is where experiments to improve segmentation quality for these classes are being conducted.
 
----
-
-Contributions and ideas to improve results on the 5 weak classes are welcome!

@@ -13,7 +13,7 @@ This repository experiments with **SAM 3** (Segment Anything Model 3) on the **P
 Download the dataset from:  
 [http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/index.html#devkit)
 
-- Download **VOCtrainval_11-May-2012.tar**/ **Download the training/validation data (2GB tar file) at Development Kit**
+- Download **VOCtrainval_11-May-2012.tar** known as **Download the training/validation data (2GB tar file) at Development Kit**
 - Extract it into the project directory
 
 ### Step 3: Prepare Files
